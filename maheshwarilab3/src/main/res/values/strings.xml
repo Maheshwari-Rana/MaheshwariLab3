@@ -1,0 +1,105 @@
+<!--
+    * Name: Maheshwari Rana
+    * Student ID: 301110467
+    * Section: 002
+-->
+
+<resources>
+    <string name="app_name">MaheshwariLab3</string>
+
+    <!-- String for first name-->
+    <string name="first_name">Maheshwari</string>
+
+    <!-- String for first name-->
+    <string name="tab1_title">Maheshwari Rana - 301110467</string>
+
+    <!-- String for last name-->
+    <string name="last_name">Rana</string>
+
+    <!-- String for student id-->
+    <string name="studentID">301110467</string>
+
+    <!-- String for line thickness -->
+    <string name="line_thickness">Line Thickness</string>
+
+    <!-- String for line color -->
+    <string name="line_color">Line Color</string>
+
+    <!-- String for drawing canvas -->
+    <string name="drawing_canvas">Image for drawing canvas</string>
+
+    <!-- String for 1st screen image -->
+    <string name="task1_image">Main image for task 1</string>
+
+    <!-- String for item1 in the menu bar -->
+    <string name="item1">Tab 1</string>
+
+    <!-- String for item2 in the menu bar -->
+    <string name="item2">Tab 2</string>
+
+    <!-- String for item3 in the menu bar -->
+    <string name="item3">Tab 3</string>
+
+    <!-- String for close -->
+    <string name="exit">Exit App</string>
+
+    <!-- String for sure -->
+    <string name="sure">Are you sure?</string>
+
+    <!-- String for yes -->
+    <string name="confirm">Confirm</string>
+
+    <!-- String for no -->
+    <string name="decline">Decline</string>
+
+    <!-- String for blue -->
+    <string name="blue">Blue</string>
+
+    <!-- String for yellow -->
+    <string name="yellow">Yellow</string>
+
+    <!-- String for Red -->
+    <string name="red">Red</string>
+
+    <!-- String for permission -->
+    <string name="permission">Check Permission</string>
+
+    <!-- String for start -->
+    <string name="start">Start</string>
+
+    <!-- String for stop -->
+    <string name="stop">stop</string>
+
+    <!-- String for earth -->
+    <string name="earth">Earth</string>
+
+    <!-- String for moon -->
+    <string name="moon">Moon</string>
+
+    <!-- String for frame animation -->
+    <string name="anim">Animation Image</string>
+
+    <!-- String for permission granted -->
+    <string name="granted">Permissions already granted..</string>
+
+    <!-- String for orbit  -->
+    <string name="orbit">Orbit</string>
+
+    <!-- String for clear canvas  -->
+    <string name="clear">Clear Canvas</string>
+
+    <!-- String for set properties  -->
+    <string name="set">Set Properties</string>
+
+    <!-- String for set properties  -->
+    <string name="canvas">Actual Implementation</string>
+
+    <!-- String array for line thickness  -->
+    <string-array name="lineThickness">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+
+</resources>

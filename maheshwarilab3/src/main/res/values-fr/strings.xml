@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MaheshwariLab3</string>
+    <string name="first_name">Maheshwari</string>
+    <string name="tab1_title">Maheshwari Rana - 301110467</string>
+    <string name="last_name">Rana</string>
+    <string name="studentID">301110467</string>
+    <string name="line_thickness">Épaisseur de ligne</string>
+    <string name="line_color">Couleur de la ligne</string>
+    <string name="drawing_canvas">Image pour dessiner une toile</string>
+    <string name="task1_image">Image principale de la tâche 1</string>
+    <string name="item1">Onglet 1</string>
+    <string name="item2">Onglet 2</string>
+    <string name="item3">Onglet 3</string>
+    <string name="exit">Quitter l\'application</string>
+    <string name="sure">Êtes-vous sûr?</string>
+    <string name="confirm">Confirmer</string>
+    <string name="decline">Déclin</string>
+    <string name="blue">Bleue</string>
+    <string name="yellow">Jaune</string>
+    <string name="red">rouge</string>
+    <string name="permission">Vérifier l\'autorisation</string>
+    <string name="start">Début</string>
+    <string name="stop">Arrêtez</string>
+    <string name="earth">Terre</string>
+    <string name="moon">Lune</string>
+    <string name="anim">Image d\'animation</string>
+    <string name="granted">Autorisations déjà accordées.</string>
+    <string name="orbit">Orbite</string>
+    <string name="clear">Toile claire</string>
+    <string name="set">Définir les propriétés</string>
+    <string name="canvas">Mise en œuvre réelle</string>
+</resources>
