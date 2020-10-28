@@ -62,7 +62,31 @@ public class MaheshwariFragment extends Fragment {
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         maheshwariSpinner.setAdapter(arrayAdapter);
 
+        maheshwariSet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                float lineWidth = Integer.parseInt(maheshwariSpinner.getSelectedItem().toString());
 
+                int selectedId = maheshwariRadioGroup.getCheckedRadioButtonId();
+                Log.e("Id", "Selected " + selectedId);
+                // find the radiobutton by returned id
+                maheswariRadioButton = (RadioButton) view.findViewById(selectedId);
+
+                String lineColor = maheswariRadioButton.getText().toString();
+                Log.e("Color", lineColor);
+                int color;
+
+                if(lineColor.equals("Blue")){
+                    color = Color.BLUE;
+                }else if (lineColor.equals("Red")){
+                    color = Color.RED;
+                }else {
+                    color = Color.YELLOW;
+                }
+
+                customCanvas.setProperties(lineWidth, color);
+            }
+        });
 
         maheshwariClear.setOnClickListener(new View.OnClickListener() {
             @Override
