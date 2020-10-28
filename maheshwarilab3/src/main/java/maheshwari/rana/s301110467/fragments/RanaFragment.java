@@ -57,7 +57,7 @@ public class RanaFragment extends Fragment {
         maheshwariStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                stopFrameAnimation();
+                //stopFrameAnimation();
             }
         });
 
@@ -102,8 +102,5 @@ public class RanaFragment extends Fragment {
         maheshwariFrameAnimation.start();
     }
 
-    public void stopFrameAnimation(){
-        maheshwariFrameAnimation.stop();
-        maheshwariFrameAnimation.setVisible(false,false);
-    }
+
 }
