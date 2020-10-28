@@ -19,12 +19,4 @@
         android:repeatCount="1"
         android:repeatMode="reverse" />-->
 
-    <rotate
-        android:toDegrees="360"
-        android:repeatMode="restart"
-        android:repeatCount="800"
-        android:pivotY="210%"
-        android:pivotX="280%"
-        android:fromDegrees="0"
-        android:duration="8000" />
 </set>
